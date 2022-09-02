@@ -15,10 +15,10 @@ MIMIC-IV Data Pipeline is available on [arxiv](https://arxiv.org/abs/2204.13841)
 If you use MIMIC-IV Data Pipeline in a scientific publication, we would appreciate citations to the following paper.
 
 ```
-@article{gupta2022extensive,
+@article{anonymous,
   title={An Extensive Data Processing Pipeline for MIMIC-IV},
   author={},
-  journal={arXiv preprint arXiv:2204.13841},
+  journal={},
  year={2022}
 }
 ```
