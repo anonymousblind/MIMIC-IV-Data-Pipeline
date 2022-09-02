@@ -17,7 +17,7 @@ If you use MIMIC-IV Data Pipeline in a scientific publication, we would apprecia
 ```
 @article{gupta2022extensive,
   title={An Extensive Data Processing Pipeline for MIMIC-IV},
-  author={Gupta, Mehak and Gallamoza, Brennan and Cutrona, Nicolas and Dhakal, Pranjal and Poulain, Raphael and Beheshti, Rahmatollah},
+  author={},
   journal={arXiv preprint arXiv:2204.13841},
  year={2022}
 }
