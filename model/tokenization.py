@@ -61,14 +61,14 @@ class BEHRT_models():
         labs_list = []
         demo_list = []
         cond_list = []
-        labels =  pd.read_csv('csv/labels.csv')
+        labels =  pd.read_csv('./data/csv/'+'labels.csv')
         first = True
         #labels = labels.iloc[:1, :]
         print("STARTING READING FILES.")
         for hadm in tqdm.tqdm(labels.itertuples(), total = labels.shape[0]):
-            labs = pd.read_csv('csv/' + str(hadm.hadm_id) + '/dynamic.csv')
-            demo = pd.read_csv('csv/' + str(hadm.hadm_id) + '/demo.csv')
-            cond = pd.read_csv('csv/' + str(hadm.hadm_id) + '/static.csv')
+            labs = pd.read_csv('./data/csv/' + str(hadm.hadm_id) + '/dynamic.csv')
+            demo = pd.read_csv('./data/csv/' + str(hadm.hadm_id) + '/demo.csv')
+            cond = pd.read_csv('./data/csv/' + str(hadm.hadm_id) + '/static.csv')
             if first:
                 condVocab_l = cond.iloc[0: , :].values.tolist()[0]
                 first = False
